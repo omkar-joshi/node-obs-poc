@@ -71,27 +71,6 @@ https://www.checklyhq.com/docs/traces-open-telemetry/instrumenting-code/nodejs/
 
 https://grafana.com/blog/2022/07/07/how-to-configure-grafana-loki-with-a-node.js-e-commerce-app/
 
-For metrics we have prometheus
-
-memory utilization
-db connection timing
-
-metric collection
-done by prometheus
-/metrics
-
-we throw metrics from here to .metrics route
-it runs on 9090
-
-server will scrape the metrics logs
-for every 4 secs done from yml conf file
-
-to convert in cahrts use grafana
-
-in grafana:Add data source
-
-New dashboard: 11159
-
 grafana loki for log monitoring
 
 http://localhost:3100/metrics
